@@ -1,8 +1,7 @@
 print( "The Love Calculator is calculating your score..." )
-name1 = input("Enter your name and surname ")  # What is your name?
-name2 = input("Enter your loves name ")  # What is their name?
-# 🚨 Don't change the code above 👆
-# Write your code below this line 👇
+name1 = input("Enter your name and surname ")  
+name2 = input("Enter your loves name ")  
+
 combined = name1 + name2
 lower_names = combined.lower()
 
